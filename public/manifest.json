@@ -1,0 +1,74 @@
+{
+  "short_name": "مكتب حمد للمحاماة",
+  "name": "مكتب حمد للمحاماة - الثقة والخبرة في خدمة العدالة",
+  "description": "مكتب حمد للمحاماة يقدم خدمات قانونية متميزة ومتخصصة في جميع فروع القانون في المملكة العربية السعودية - الدمام",
+  "icons": [
+    {
+      "src": "لوجو-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "لوجو-removebg-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#142443",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["legal", "business", "professional"],
+  "screenshots": [
+    {
+      "src": "لوجو-removebg-preview.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "احجز استشارة",
+      "short_name": "استشارة",
+      "description": "احجز استشارة قانونية مجانية",
+      "url": "/consultation",
+      "icons": [
+        {
+          "src": "لوجو-removebg-preview.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "اتصل بنا",
+      "short_name": "اتصال",
+      "description": "تواصل مع مكتب حمد للمحاماة",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "لوجو-removebg-preview.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "خدماتنا",
+      "short_name": "خدمات",
+      "description": "تصفح الخدمات القانونية المتاحة",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "لوجو-removebg-preview.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

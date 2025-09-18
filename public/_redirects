@@ -1,0 +1,24 @@
+# Netlify redirects for Hamad Law Firm
+# مكتب حمد للمحاماة - إعدادات إعادة التوجيه
+
+# Handle React Router (SPA)
+/*    /index.html   200
+
+# Redirect old URLs (if any)
+/home    /    301
+/about-us    /about    301
+/legal-services    /services    301
+/contact-us    /contact    301
+
+# Force HTTPS
+http://hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
+http://www.hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
+
+# Redirect www to non-www
+https://www.hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
+
+# API redirects (if needed)
+/api/*    /.netlify/functions/:splat    200
+
+# Custom 404 page
+/404    /index.html    200
