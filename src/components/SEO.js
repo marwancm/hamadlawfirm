@@ -108,6 +108,7 @@ const SEO = ({
       <meta name="revisit-after" content="7 days" />
       <meta name="distribution" content="global" />
       <meta name="rating" content="general" />
+      {/* google searsh console verification */}
       <meta name="google-site-verification" content="02ITQzXEd5ZXktewIT-uaOHUVL98KtYzuEWvRZO4yzw" />
       
       {/* Open Graph Meta Tags */}
