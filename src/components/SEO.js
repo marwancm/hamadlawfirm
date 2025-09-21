@@ -6,15 +6,15 @@ const SEO = ({
   description = "مكتب حمد للمحاماة يقدم خدمات قانونية متميزة ومتخصصة في جميع فروع القانون في المملكة العربية السعودية - الدمام",
   keywords = "محامي, مكتب محاماة, استشارات قانونية, الدمام, السعودية, قانون, محكمة, دعاوى قضائية",
   image = "/لوجو-removebg-preview.png",
-  url = "https://hamadlawfirm.co",
+  url = "https://hamadlawfirm.vercel.app",
   type = "website",
   author = "مكتب حمد للمحاماة",
   locale = "ar_SA",
   siteName = "مكتب حمد للمحاماة"
 }) => {
   const fullTitle = title.includes("مكتب حمد للمحاماة") ? title : `${title} - مكتب حمد للمحاماة`;
-  const fullUrl = url.startsWith('http') ? url : `https://hamadlawfirm.co${url}`;
-  const fullImage = image.startsWith('http') ? image : `https://hamadlawfirm.co${image}`;
+  const fullUrl = url.startsWith('http') ? url : `https://hamadlawfirm.vercel.app${url}`;
+  const fullImage = image.startsWith('http') ? image : `https://hamadlawfirm.vercel.app${image}`;
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -22,7 +22,7 @@ const SEO = ({
     "name": "مكتب حمد للمحاماة",
     "alternateName": "Hamad Law Firm",
     "description": description,
-    "url": "https://hamadlawfirm.co",
+    "url": "https://hamadlawfirm.vercel.app",
     "logo": fullImage,
     "image": fullImage,
     "telephone": "+966502275726",
