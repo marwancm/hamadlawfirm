@@ -50,3 +50,4 @@ Allow: /*.svg$
 
 # Sitemap location
 Sitemap: https://hamadlawfirm.vercel.app/sitemap.xml
+Sitemap: https://hamadlawfirm.vercel.app/sitemap-new.xml
