@@ -6,15 +6,16 @@ const SEO = ({
   description = "مكتب حمد للمحاماة يقدم خدمات قانونية متميزة ومتخصصة في جميع فروع القانون في المملكة العربية السعودية - الدمام",
   keywords = "محامي, مكتب محاماة, استشارات قانونية, الدمام, السعودية, قانون, محكمة, دعاوى قضائية",
   image = "/لوجو-removebg-preview.png",
-  url = "https://hamadlawfirm.vercel.app",
+  url = "/",
   type = "website",
   author = "مكتب حمد للمحاماة",
   locale = "ar_SA",
   siteName = "مكتب حمد للمحاماة"
 }) => {
+  const baseUrl = "https://hamadlawfirm.vercel.app";
   const fullTitle = title.includes("مكتب حمد للمحاماة") ? title : `${title} - مكتب حمد للمحاماة`;
-  const fullUrl = url.startsWith('http') ? url : `https://hamadlawfirm.vercel.app${url}`;
-  const fullImage = image.startsWith('http') ? image : `https://hamadlawfirm.vercel.app${image}`;
+  const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
+  const fullImage = image.startsWith('http') ? image : `${baseUrl}${image}`;
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -22,7 +23,7 @@ const SEO = ({
     "name": "مكتب حمد للمحاماة",
     "alternateName": "Hamad Law Firm",
     "description": description,
-    "url": "https://hamadlawfirm.vercel.app",
+    "url": baseUrl,
     "logo": fullImage,
     "image": fullImage,
     "telephone": "+966502275726",
@@ -32,7 +33,8 @@ const SEO = ({
       "streetAddress": "طريق الملك فهد بن عبدالعزيز",
       "addressLocality": "الدمام",
       "addressCountry": "SA",
-      "addressRegion": "المنطقة الشرقية"
+      "addressRegion": "المنطقة الشرقية",
+      "postalCode": "31441"
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -40,8 +42,10 @@ const SEO = ({
       "longitude": "50.0888"
     },
     "openingHours": [
-      "Su-Th 08:00-18:00",
-      "Fr-Sa 09:00-15:00"
+      "Mo-Th 08:00-18:00",
+      "Su 08:00-18:00",
+      "Fr 09:00-15:00",
+      "Sa 09:00-15:00"
     ],
     "priceRange": "$$",
     "serviceArea": {
@@ -108,8 +112,7 @@ const SEO = ({
       <meta name="revisit-after" content="7 days" />
       <meta name="distribution" content="global" />
       <meta name="rating" content="general" />
-      {/* google searsh console verification */}
-      <meta name="google-site-verification" content="02ITQzXEd5ZXktewIT-uaOHUVL98KtYzuEWvRZO4yzw" />
+      <meta httpEquiv="Content-Language" content="ar" />
       
       {/* Open Graph Meta Tags */}
       <meta property="og:type" content={type} />
@@ -117,10 +120,11 @@ const SEO = ({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={fullImage} />
       <meta property="og:image:alt" content="مكتب حمد للمحاماة - شعار المكتب" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:url" content={fullUrl} />
       <meta property="og:site_name" content={siteName} />
       <meta property="og:locale" content={locale} />
-      <meta property="og:locale:alternate" content="en_US" />
       
       {/* Twitter Card Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -138,13 +142,13 @@ const SEO = ({
       <meta name="apple-mobile-web-app-title" content="مكتب حمد للمحاماة" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="format-detection" content="telephone=no" />
       
       {/* Canonical URL */}
       <link rel="canonical" href={fullUrl} />
       
       {/* Alternate Language Links */}
       <link rel="alternate" hrefLang="ar" href={fullUrl} />
-      <link rel="alternate" hrefLang="en" href={fullUrl.replace('.co', '.co/en')} />
       <link rel="alternate" hrefLang="x-default" href={fullUrl} />
       
       {/* Structured Data */}

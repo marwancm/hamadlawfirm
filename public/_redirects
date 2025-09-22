@@ -11,11 +11,11 @@
 /contact-us    /contact    301
 
 # Force HTTPS
-http://hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
-http://www.hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
+http://hamadlawfirm.vercel.app/*    https://hamadlawfirm.vercel.app/:splat    301!
+http://www.hamadlawfirm.vercel.app/*    https://hamadlawfirm.vercel.app/:splat    301!
 
 # Redirect www to non-www
-https://www.hamadlawfirm.co/*    https://hamadlawfirm.co/:splat    301!
+https://www.hamadlawfirm.vercel.app/*    https://hamadlawfirm.vercel.app/:splat    301!
 
 # API redirects (if needed)
 /api/*    /.netlify/functions/:splat    200

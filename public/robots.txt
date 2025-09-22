@@ -7,12 +7,15 @@ Allow: /
 # Allow all major search engines
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
@@ -23,24 +26,27 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Disallow admin and private areas (if any)
+# Disallow unnecessary files and directories
 Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$
 Disallow: /api/
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /src/
 
 # Allow important directories
 Allow: /static/
 Allow: /images/
 Allow: /css/
 Allow: /js/
-
-# Crawl delay (optional - be respectful to servers)
-Crawl-delay: 1
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
 
 # Sitemap location
 Sitemap: https://hamadlawfirm.vercel.app/sitemap.xml
-
-# Additional sitemaps (if you have multiple)
-# Sitemap: https://hamadlawfirm.vercel.app/sitemap-pages.xml
-# Sitemap: https://hamadlawfirm.vercel.app/sitemap-services.xml

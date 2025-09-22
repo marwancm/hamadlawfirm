@@ -6,11 +6,10 @@
   <!-- Homepage -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/" />
     <image:image>
       <image:loc>https://hamadlawfirm.vercel.app/لوجو-removebg-preview.png</image:loc>
       <image:title>مكتب حمد للمحاماة - الصفحة الرئيسية</image:title>
@@ -21,84 +20,46 @@
   <!-- About Page -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/about</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/about" />
   </url>
 
   <!-- Services Page -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/services</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/services" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/services" />
   </url>
 
   <!-- Consultation Page -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/consultation</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/consultation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/consultation" />
   </url>
 
   <!-- Contact Page -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/contact</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/contact" />
   </url>
 
   <!-- Blog Page -->
   <url>
     <loc>https://hamadlawfirm.vercel.app/blog</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/blog" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://hamadlawfirm.vercel.app/en/blog" />
-  </url>
-
-  <!-- Service Categories -->
-  <url>
-    <loc>https://hamadlawfirm.vercel.app/services/corporate-law</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/services/corporate-law" />
-  </url>
-
-  <url>
-    <loc>https://hamadlawfirm.vercel.app/services/real-estate-law</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/services/real-estate-law" />
-  </url>
-
-  <url>
-    <loc>https://hamadlawfirm.vercel.app/services/litigation</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/services/litigation" />
-  </url>
-
-  <url>
-    <loc>https://hamadlawfirm.vercel.app/services/legal-consultation</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://hamadlawfirm.vercel.app/services/legal-consultation" />
   </url>
 
 </urlset>

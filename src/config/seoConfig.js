@@ -3,7 +3,7 @@
 
 export const siteConfig = {
   siteName: "مكتب حمد للمحاماة",
-  siteUrl: process.env.REACT_APP_SITE_URL || "https://hamadlawfirm.vercel.app",
+  siteUrl: "https://hamadlawfirm.vercel.app",
   defaultTitle: "مكتب حمد للمحاماة - الثقة والخبرة في خدمة العدالة",
   defaultDescription: "مكتب حمد للمحاماة يقدم خدمات قانونية متميزة ومتخصصة في جميع فروع القانون في المملكة العربية السعودية - الدمام",
   defaultKeywords: "محامي, مكتب محاماة, استشارات قانونية, الدمام, السعودية, قانون, محكمة, دعاوى قضائية, قانون الشركات, قانون العقارات, التمثيل القضائي",
