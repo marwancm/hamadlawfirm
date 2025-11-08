@@ -50,4 +50,14 @@ Allow: /*.svg$
 
 # Sitemap location
 Sitemap: https://hamadlawfirm.vercel.app/sitemap.xml
-Sitemap: https://hamadlawfirm.vercel.app/sitemap-new.xml
+
+# Additional crawling instructions
+User-agent: *
+Crawl-delay: 2
+
+# Priority pages for crawling
+Allow: /about.html
+Allow: /services.html
+Allow: /consultation
+Allow: /contact
+Allow: /blog

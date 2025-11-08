@@ -144,6 +144,19 @@ const SEO = ({
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="format-detection" content="telephone=no" />
       
+      {/* Enhanced SEO for better crawling */}
+      <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <meta name="bingbot" content="index, follow" />
+      <meta name="slurp" content="index, follow" />
+      <meta name="geo.region" content="SA-04" />
+      <meta name="geo.placename" content="الدمام" />
+      <meta name="geo.position" content="26.4207;50.0888" />
+      <meta name="ICBM" content="26.4207, 50.0888" />
+      <meta name="DC.title" content={fullTitle} />
+      <meta name="DC.creator" content="مكتب حمد للمحاماة" />
+      <meta name="DC.subject" content={keywords} />
+      <meta name="DC.description" content={description} />
+      
       {/* Canonical URL */}
       <link rel="canonical" href={fullUrl} />
       

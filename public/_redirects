@@ -1,7 +1,11 @@
 # Netlify redirects for Hamad Law Firm
 # مكتب حمد للمحاماة - إعدادات إعادة التوجيه
 
-# Handle React Router (SPA)
+# SEO-friendly static pages for crawlers
+/about    /about.html    200    Country=*,Role=crawler
+/services    /services.html    200    Country=*,Role=crawler
+
+# Handle React Router (SPA) for regular users
 /*    /index.html   200
 
 # Redirect old URLs (if any)
